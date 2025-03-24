@@ -1,19 +1,66 @@
-Hey, I am Rango (a.k.a. _@rangonomics_, _@wardn_). I am a Robotics Engineer by degree, but I consider myself a Software Engineer at the core and have not limited myself to Robotics and its transversal fields. I have deployed web apps for blockchain analytics, trading (don't use it) bots, investment analytics apps, web3 and many more projects.
+Hey, I am Daniel Guitron (a.k.a. @dangu, @danguitron)
 
-In the past, I have led the development of Serena's Autonomous Navigation (ROS2, C++) stack at [Coalescent Mobile Robotics](https://cm-robotics.com/), worked at [Hiventive](https://www.hiventive.com/en/) both as a Back-End Software Engineer (Go, PostgreSQL) and as a Embedded Software Engineer (C++, C).
+Data Scientist | Machine Learning Advocate | Business Strategist | Lifelong Learner | Fitness Enthusiast
 
-I have also been part of the Real Time Systems research team at [LS2N](https://ls2n.fr) for AI Planning, in which I have developed [pymapf](https://github.com/APLA-Toolbox/pymapf) (Multi-Agents Pathfinding Toolbox) and [pyddl](https://github.com/APLA-Toolbox/pythonpddl) (PDDL Parser/Planner).
+Welcome to my corner of the internet—where spreadsheets meet sprint intervals, neural networks coexist with morning routines, and business strategy blends with barbells. I’m obsessed with one question: How do we optimize systems—whether in code, boardrooms, or our own lives—to unlock extraordinary outcomes?
 
-I have interned at [Ingeniarius](https://ingeniarius.pt/), where I have worked on [STOP](http://stop.ingeniarius.pt/), [SAFE](http://safeforest.ingeniarius.pt/) and [SEMFIRE](http://semfire.ingeniarius.pt/).
+**What I Do**
+--- 
 
-I completed my BSc. in Electronics from [Nantes Université](https://english.univ-nantes.fr/), followed by a Master's in Embedded Systems at [Bordeaux Ynov Campus](https://www.ynov.com/campus/bordeaux). I then transfered for a Control and Robotics Master's at [Ecole Centrale Nantes](https://www.ec-nantes.fr/english-version), a top 5 graduate school in the country.
+🔍 Data Science & Machine Learning
+I turn raw data into actionable intelligence. From building predictive models that forecast market trends to designing ML pipelines that automate decision-making, I thrive on solving problems where numbers meet nuance. Recent obsessions:
 
-I now started the process of learning Blockchain Technology as well as their web integrations with web3.
+- Deploying ethical AI to reduce bias in hiring algorithms.
 
-##### Projects
+- Using NLP to decode customer sentiment from messy, real-world text.
 
-- [Trackdrop][1] · A Footprint Tracker on Ethereum's Rollups · 2023
+💼 Business Strategy
+Data is useless without context. I partner with companies to translate insights into strategy—whether it’s optimizing supply chains with ML, pricing models that balance profit and fairness, or dashboards that turn executives into data evangelists.
+
+**How I Grow**
+---
+
+🧠 Personal Growth as a Science
+
+- Learning in Public: Sharing my wins (and Python errors) through blog posts and open-source projects.
+
+-  Kaizen Philosophy: Tiny, daily improvements—like a 1% better model accuracy or a 5-minute longer meditation streak.
+
+-  Biohacking Meets Data: Tracking sleep, workouts, and focus with wearables (Oura Ring + Whoop) to optimize mental and physical performance.
+
+💪 Fitness: My Algorithm for Resilience
+
+- Lifting Heavy Stuff: Squats > spreadsheets for stress relief. Chalistenics current goal: (muscle-up)
+
+- The Gym as a Lab: Applying periodization principles from weightlifting to project management (yes, deload weeks exist for code too).
+
+- Mind-Body Connection: If overfitting a model is bad, overtraining a muscle is worse. Balance is everything.
+
+**Why These Threads Connect**
+---
+
+To me, data science, business, and fitness are all about patterns:
+
+- A well-tuned ML model mirrors a smart training plan—both require iteration, feedback loops, and avoiding overcomplication.
+
+- Scaling a business is like progressive overload: sustainable growth beats short-term spikes.
+
+- Personal growth? That’s the ultimate hyperparameter tuning.
+
+**Philosophy**
+---
+
+> ✍ Dangu´s: "Perfection is a mirage; mastery is a journey.
+The mind, like a muscle, grows only when stretched beyond comfort.
+Every error in code, every misstep in the gym, every 'wrong' hypothesis
+is a synapse forging resilience.
+Stay hungry. Stay humble.
+The horizon of knowledge expands only when we dare to wander."
+
+**Projects**
+---
+<!-- - [Trackdrop][1] · A Footprint Tracker on Ethereum's Rollups · 2023
 - [Python-Nexo][2] · A Python Wrapper for Nexo Pro's API · 2022
 
 [1]: https://trackdrop.xyz/
-[2]: https://github.com/guilyx/python-nexo
+[2]: https://github.com/guilyx/python-nexo -->
