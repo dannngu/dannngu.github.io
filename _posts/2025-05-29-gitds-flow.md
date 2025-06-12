@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Gitds-flow (Data science git work flow)" 
+title:      "Gitds-flow - Data Science Git Work Flow" 
 subtitle:   "Introduction to gitds-flow"
 author: "Dan Guitron"
 catalog: true
@@ -48,7 +48,7 @@ Everything originates from just two primary branches, which will then split into
 | ------------------ | ------------------------------------------------- |
 | Rectangle          | Action or process (e.g. create branch, commit)    |
 | Luck               | Decision point (e.g., success of the experiment?) |
-| Arrows             | Process flow                                       |
+| Arrows             | Process flow                                      |
 | Circle (Start/End) | Flow start and restart points                     |
 |                    |                                                   |
 
@@ -87,25 +87,23 @@ Everything originates from just two primary branches, which will then split into
 
 
 
-
 ## Branch structure and commit types
 ---
-
 ### 1.Primary Branches
 
-| Branch  | Commit Types Allowed                       | Usage |
-| ------- | ------------------------------------------ | ----- |
-| `main/` | `(init)`, `(release)`,`(hotfix)`,`(chore)`  |       |
-| `dev/`  |                                            |       |
+| Branch  | Commit Types Allowed                        | Usage |
+| ------- | ------------------------------------------- | ----- |
+| `main/` | `(init)`, `(release)`,`(hotfix)`,`(chore)`   |       |
+| `dev/`  | `experiment`, `feat`, `fix`, `docs`, `data`  |       |
 
 ### 2.Secondary branches
 
 | Branch             | Commit Types Allowed          | Usage                                                |
 | ------------------ | ----------------------------- | ---------------------------------------------------- |
+| **`(release)/*`**  | `chore`, `docs`, `fix`         | Release preparation (versioning, final adjustments).  |
 | **`feature/*`**    | `feat`, `data`, `docs`, `fix`  | Development of new functionalities.                  |
 | **`experiment/*`** | `experiment`, `data`, `fix`    | Testing of algorithms/architectures.                 |
-| **`release/*`**    | `chore`, `docs`, `fix`         | Release preparation (versioning, final adjustments).  |
-| **`hotfix/*`**      | `fix`, `chore`                 | Urgent corrections in production.                    |
+| **`fix/*`**        | `fix`, `chore`                  | Urgent corrections in production.                    |
 
 ### 3.Commit Types (Conventional Commits Adapted to DS)
 
@@ -135,17 +133,17 @@ git commit -m "fix: Resolve dimension mismatch in PCA"
 git commit -m "data: Remove outliers from customer age column"
 ```
 
-## **5. Cheat-sheet commands (quick guide)**
+## Cheat-sheet commands (quick guide)
 
 | Action           | Command                                                                |
 | ---------------- | ---------------------------------------------------------------------- |
 | Create a project | `cookiecutter https://github.com/drivendata/cookiecutter-data-science` |
 | Initialize DVC   | `dvc init`                                                             |
 | Upload data      | `dvc add data/raw/ && dvc push`                                        |
-| Create a branch  | `git checkout -b feature/nombre`                                       |
-| Make PR          | `git push -u origin feature/nombre` → Create a PR in GitHub            |
-| Merge            | `git checkout develop && git merge --no-ff feature/nombre`             |
-| Delete branch    | `git branch -d feature/nombre`                                         |
+| Create a branch  | `git checkout -b feature/name`                                         |
+| Make PR          | `git push -u origin feature/name` → Create a PR in GitHub              |
+| Merge            | `git checkout dev && git merge --no-ff feature/nombre`                 |
+| Delete branch    | `git branch -d feature/name`                                           |
 |                  |                                                                        |
 
 
@@ -167,7 +165,7 @@ git commit -m "data: Remove outliers from customer age column"
 - _Even if you're working alone_, make PRs to review your changes before merging.
 
 **Steps for a PR**
-1. **Finish your work on the branch****:
+1. **Finish your work on the branch**:
 
 ```bash
 git checkout dev
@@ -179,16 +177,16 @@ git add .
 git commit -m "Train a model with Cross-Validation"
 git push origin feature/new-model
 ```
-
 2. **Create the PR in GitHub**:
 	- Go to your GitHub repo > **Pull Requests** > **New Pull Request**.
 	- **Base**: `dev` (branch you want to merge to).
 	- **Compare**: `feature/new-model` (your branch).
+
 - **Review your changes**:
 	- **Description**: Explains what the PR does and how to test it.
 	- **Example**:
-
-```markdown
+    
+```bash
 ## What this PR does
 - Adds a Random Forest model to predict sales.
 - Includes 5-fold cross-validation.
@@ -206,10 +204,5 @@ git push origin feature/new-model
 
 - **Whenever you want to merge into `dev` or `main`**.
 - **Examples**:
-- You completed a successful experiment and want to integrate it into `dev`.
-- You fixed a bug in `dev` and want to bring it into `main`.
-
-
-
-
-
+	- You completed a successful experiment and want to integrate it into `dev`.
+	- You fixed a bug in `dev` and want to bring it into `main`.
