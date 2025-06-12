@@ -85,8 +85,6 @@ Everything originates from just two primary branches, which will then split into
 - **Reason**:
 	- In DS, 80% of work is failed experiments; `dev` acts as a buffer before production.
 
-
-
 ## Branch structure and commit types
 ---
 ### 1.Primary Branches
@@ -96,25 +94,27 @@ Everything originates from just two primary branches, which will then split into
 | `main/` | `(init)`, `(release)`,`(hotfix)`,`(chore)`   |       |
 | `dev/`  | `experiment`, `feat`, `fix`, `docs`, `data`  |       |
 
+
 ### 2.Secondary branches
 
 | Branch             | Commit Types Allowed          | Usage                                                |
 | ------------------ | ----------------------------- | ---------------------------------------------------- |
-| **`(release)/*`**  | `chore`, `docs`, `fix`         | Release preparation (versioning, final adjustments).  |
-| **`feature/*`**    | `feat`, `data`, `docs`, `fix`  | Development of new functionalities.                  |
-| **`experiment/*`** | `experiment`, `data`, `fix`    | Testing of algorithms/architectures.                 |
-| **`fix/*`**        | `fix`, `chore`                  | Urgent corrections in production.                    |
+| **`(release)/*`**  | `chore`, `docs`, `fix`        | Release preparation (versioning, final adjustments). |
+| **`feature/*`**    | `feat`, `data`, `docs`, `fix` | Development of new functionalities.                  |
+| **`experiment/*`** | `experiment`, `data`, `fix`   | Testing of algorithms/architectures.                 |
+| **`fix/*`**        | `fix`, `chore`                | Urgent corrections in production.                    |
+
 
 ### 3.Commit Types (Conventional Commits Adapted to DS)
 
 | Type             | Message Example                                        | Applicable Branch           |
 | ---------------- | ------------------------------------------------------ | --------------------------- |
 | **`feat`**       | `feat: Add feature scaling pipeline`                   | `feature/*`, `dev/`         |
-| **`fix`**         | `fix: Handle missing values in time series`             | All except `main/`          |
+| **`fix`**        | `fix: Handle missing values in time series`            | All except `main/`          |
 | **`data`**       | `data: Add 2023 sales dataset`                         | `feature/*`, `experiment/*` |
 | **`docs`**       | `docs: Update API reference for model training`        | All                         |
-| **`chore`**      | `chore: Update scikit-learn to v1.3.0`                 | `release/*`, `hotfix/*`      |
-| **`experiment`** | `experiment: Test Transformer for text classification`  | `experiment/*`              |
+| **`chore`**      | `chore: Update scikit-learn to v1.3.0`                 | `release/*`, `hotfix/*`     |
+| **`experiment`** | `experiment: Test Transformer for text classification` | `experiment/*`              |
 |                  |                                                        |                             |
 
 #### Examples of bad vs good practices
@@ -205,4 +205,4 @@ git push origin feature/new-model
 - **Whenever you want to merge into `dev` or `main`**.
 - **Examples**:
 	- You completed a successful experiment and want to integrate it into `dev`.
-	- You fixed a bug in `dev` and want to bring it into `main`.
+	- You fixed a bug in `dev` and want to bring it into `main`
