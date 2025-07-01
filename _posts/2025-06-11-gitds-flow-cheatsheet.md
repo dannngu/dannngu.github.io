@@ -14,7 +14,7 @@ tags:
   - Productivity
 ---
 
-# 🌱 gitds-flow Explanation Work Flow
+# Gitds-flow Explanation Work Flow
 ---
 
 
