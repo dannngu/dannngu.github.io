@@ -7,11 +7,11 @@ catalog: true
 header-img: "img/liminality.jpg"
 header-mask: 0.4
 tags:
-  - Data Science
+  - DataScience
   - ML
   - Decision Tree
-  - Machine Learning
-  - Supervised Learning
+  - MachineLearning
+  - SupervisedLearning
   - Data
 ---
 
