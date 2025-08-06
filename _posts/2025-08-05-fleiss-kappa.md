@@ -44,10 +44,10 @@ By measuring the degree of agreement, (**consensus in the results**) between **s
 - A value **closer to 1** indicates a **higher degree of agreement** among scorers.
 
 
-![](https://i.postimg.cc/k5jdv58Z/kappa-1.png)
+![](https://i.postimg.cc/DZHkRYxP/kappa-2.png)
 
 ### Calculation of Agreement by Expected Chance
-![](https://i.postimg.cc/DZHkRYxP/kappa-2.png)
+![](https://i.postimg.cc/J7SHQr5G/kappa-3.png)
 
 1. **First**: We sum all the agreements made by the scorers for each column. This gives us the total score per option.
 2. **Second**: We divide each column's score by the total number of agreement points (25). This normalizes the values into probabilities.
