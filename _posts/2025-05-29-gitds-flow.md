@@ -7,7 +7,7 @@ catalog: true
 header-img: "img/gitds-flow.png"
 header-mask: 0.4
 tags:
-  - Data Science
+  - DataScience
   - Git
   - Github
   - Workflow

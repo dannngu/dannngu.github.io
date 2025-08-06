@@ -7,11 +7,11 @@ catalog: true
 header-img: "img/data-leakage.png"
 header-mask: 0.4
 tags:
-  - Data Science
-  - Data Leakage
+  - DataScience
+  - DataLeakage
   - ML
-  - Machine Learning
-  - Model Training
+  - MachineLearning
+  - ModelTraining
 ---
 
 
